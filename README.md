@@ -1,6 +1,6 @@
-# Sistema de Gerenciamento de Biblioteca
+# 📚 Sistema de Gerenciamento de Biblioteca
 
-## Sobre o Projeto
+## 📖 Sobre o Projeto
 
 O Sistema de Gerenciamento de Biblioteca foi desenvolvido para facilitar o processo de empréstimo, 
 devolução e gerenciamento de livros em uma  biblioteca. Através da aplicação, é possível gerenciar
@@ -8,7 +8,7 @@ empréstimos de livros, disponibilidade de exemplares, cadastro de usuários e g
 atividades. O sistema visa melhorar a experiência do usuário e otimizar a administração da biblioteca, 
 garantindo uma gestão eficiente e eficaz.
 
-## Recursos
+## 🗃️ Recursos
 
 - **Cadastro e gerenciamento de livros** com informações detalhadas
 (título, autor, ISBN, etc.).
@@ -19,46 +19,46 @@ de empréstimo e devolução.
 - **Notificação de usuários**sobre empréstimos e devoluções.
 - **Sistema de login e autenticação** para administradores e usuários.
 
-## Tecnologias Utilizadas
+## 🌐 Tecnologias Utilizadas
 
-1. **Frontend**
+1. **🖥️ Frontend**
     - **o Angular:** Framework utilizado para o desenvolvimento da
 interface de usuário, permitindo uma aplicação interativa e
 responsiva.
 
-2. **Backend**
+2. **⚙️ Backend**
     - **o Spring Boot (Java):** Framework utilizado para o desenvolvimento
 da API, que gerencia os empréstimos, os livros e os usuários.
 
-3. **Banco de Dados**
+3. **🗂️ Banco de Dados**
     - **o MySQL:** Banco de dados relacional utilizado para armazenar
 informações sobre empréstimos, usuários e livros.
 
-4. **Autenticação**
+4. **🔐 Autenticação**
     - **o JWT (JSON Web Tokens):** Utilizado para garantir a segurança
 no processo de autenticação e autorização de usuários.
 
-## Como Executar
+## 📌 Como Executar
 
-1. **Clone o Repositório**
+1. **👥 Clone o Repositório**
 Clone o repositório para o seu ambiente local com o comando:
 
         git clone https://github.com/usuario/sistema-biblioteca.git
 
-2. **Instale as Dependências do Frontend**
+2. **⏬Instale as Dependências do Frontend**
 Navegue até o diretório do frontend e instale as dependências com npm:
 [source,sh]
 
         cd sistema-biblioteca/frontend
         npm install
         
-3. **Instale as Dependências do Backend**
+3. **⏬Instale as Dependências do Backend**
 Navegue até o diretório do backend e instale as dependências com Maven:
 
         cd sistema-biblioteca/backend
         mvn install
 
-4. **Configuração do Banco de Dados**
+4. **🛠️ Configuração do Banco de Dados**
 Crie um banco de dados MySQL e configure as credenciais no
 arquivo *application.properties* do backend. Em seguida, execute as
 migrações para criar as tabelas necessárias:
@@ -67,20 +67,20 @@ migrações para criar as tabelas necessárias:
         spring.datasource.username=seu_usuario
         spring.datasource.password=sua_senha
         
-5. **Inicie o Servidor Backend**
+5. **✅ Inicie o Servidor Backend**
 Inicie o servidor do backend com o comando:
 
         mvn spring-boot:run
         
-6. **Inicie o Servidor Frontend**
+6. **✅ Inicie o Servidor Frontend**
 Inicie o servidor do frontend com o comando:
 
         ng serve
         
-7. **Acesse a Aplicação**
+7. **▶️ Acesse a Aplicação**
 Abra o navegador e acesse a aplicação na URL: *http://localhost:4200.*
 
-## Documentação da API
+## 📝 Documentação da API
 
 A API do Sistema de Gerenciamento de Biblioteca foi documentada
 utilizando **Swagger**, permitindo uma visualização interativa e detalhada de
@@ -97,7 +97,7 @@ backend e acesse:
 
         http://localhost:8080/swagger-ui.html
     
-## Contribuindo
+## 🤝 Contribuindo
 
 1. Faça um fork do repositório.
 2. Crie uma nova branch (*git checkout -b feature-nome-da-feature*).
@@ -105,12 +105,12 @@ backend e acesse:
 4. Envie para o repositório original (*git push origin feature-nome-da-feature*).
 5. Abra um pull request descrevendo as mudanças feitas.
 
-## Licença
+## 📌 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para
 mais detalhes.
 
-## Contato
+## ☎️ Contato
 Se você tiver alguma dúvida ou sugestão, entre em contato com a equipe de
 desenvolvimento:
 - **Email:** contato@biblioteca.com
