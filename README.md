@@ -1,6 +1,6 @@
 # Sistema de Gerenciamento de Biblioteca
 
-#### Sobre o Projeto
+## Sobre o Projeto
 
 O Sistema de Gerenciamento de Biblioteca foi desenvolvido para facilitar o processo de empréstimo, 
 devolução e gerenciamento de livros em uma  biblioteca. Através da aplicação, é possível gerenciar
@@ -8,7 +8,7 @@ empréstimos de livros, disponibilidade de exemplares, cadastro de usuários e g
 atividades. O sistema visa melhorar a experiência do usuário e otimizar a administração da biblioteca, 
 garantindo uma gestão eficiente e eficaz.
 
-#### Recursos
+## Recursos
 
 - **Cadastro e gerenciamento de livros** com informações detalhadas
 (título, autor, ISBN, etc.).
@@ -19,7 +19,7 @@ de empréstimo e devolução.
 - **Notificação de usuários**sobre empréstimos e devoluções.
 - **Sistema de login e autenticação** para administradores e usuários.
 
-#### Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 1. **Frontend**
     - **o Angular:** Framework utilizado para o desenvolvimento da
@@ -38,7 +38,7 @@ informações sobre empréstimos, usuários e livros.
     - **o JWT (JSON Web Tokens):** Utilizado para garantir a segurança
 no processo de autenticação e autorização de usuários.
 
-#### Como Executar
+## Como Executar
 
 1. **Clone o Repositório**
 Clone o repositório para o seu ambiente local com o comando:
@@ -80,7 +80,7 @@ Inicie o servidor do frontend com o comando:
 7. **Acesse a Aplicação**
 Abra o navegador e acesse a aplicação na URL: *http://localhost:4200.*
 
-#### Documentação da API
+## Documentação da API
 
 A API do Sistema de Gerenciamento de Biblioteca foi documentada
 utilizando **Swagger**, permitindo uma visualização interativa e detalhada de
@@ -97,7 +97,7 @@ backend e acesse:
 
         http://localhost:8080/swagger-ui.html
     
-#### Contribuindo
+## Contribuindo
 
 1. Faça um fork do repositório.
 2. Crie uma nova branch (*git checkout -b feature-nome-da-feature*).
@@ -105,12 +105,12 @@ backend e acesse:
 4. Envie para o repositório original (*git push origin feature-nome-da-feature*).
 5. Abra um pull request descrevendo as mudanças feitas.
 
-#### Licença
+## Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para
 mais detalhes.
 
-#### Contato
+## Contato
 Se você tiver alguma dúvida ou sugestão, entre em contato com a equipe de
 desenvolvimento:
 - **Email:** contato@biblioteca.com
